@@ -1,0 +1,32 @@
+# Copilot agent workspace
+.agents/
+skills-lock.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency and build output
+node_modules/
+dist/
+build/
+coverage/
